@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta content="telephone=no" name="format-detection" />
+  </head>
+
+  <style type="text/css">
+    body,
+    html,
+    input {
+      font-family: "PingFangSC-Medium,sans-serif", "Noto Sans CJK SC,sans-serif",
+        Arial, "Microsoft YaHei";
+    }
+    .course_bg,
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -webkit-appearance: none;
+      outline: 0;
+      word-break: break-all;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 400;
+    }
+
+    .content {
+      /* max-width: 1120px; */
+      background: #fff;
+      margin-left: 20px;
+      padding: 20px 20px 0 0;
+    }
+
+    .search-block {
+      display: grid;
+      /* grid-auto-flow: column dense; */
+      /* justify-content:space-between; */
+      justify-content: center;
+      align-content: center;
+      /* grid-template-columns: 20% 30% 20% 30%; */
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 40px;
+      grid-gap: 0;
+      border-top: 1px solid #eaeaea;
+      border-left: 1px solid #eaeaea;
+    }
+    .item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .item-label {
+      /* display: grid;
+      justify-content: center;
+      align-content: center; */
+      flex: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      overflow: hidden;
+      height: 40px;
+      font-size: 13px;
+      border-bottom: 1px solid #eaeaea;
+      border-right: 1px solid #eaeaea;
+      background: #fafafa;
+    }
+    .item-value {
+      /* display: grid;
+      justify-content: center;
+      align-content: center; */
+      flex: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      overflow: hidden;
+      height: 40px;
+      border-bottom: 1px solid #eaeaea;
+      border-right: 1px solid #eaeaea;
+    }
+    /* .item:nth-child(1) {
+      grid-column: 1 / 3;
+    } */
+  </style>
+
+  <body>
+    <div class="content">
+      <div class="search-block">
+        <div class="item">
+          <div class="item-label">
+            <span>label:</span>
+          </div>
+          <div class="item-value">
+            <span>value:</span>
+          </div>
+        </div>
+      
+        <div class="item">
+            <div class="item-label">
+              <span>label3:</span>
+            </div>
+            <div class="item-value">
+              <span>value:</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-label">
+              <span>label4:</span>
+            </div>
+            <div class="item-value">
+              <span>value:</span>
+            </div>
+          </div>
+      </div>
+
+        <!-- <div class="item-label">
+          <span>Categories：</span>
+        </div>
+        <div class="item-value">
+          <span>Categories：</span>
+        </div>
+        <div class="item-label">
+          <span>Categories：</span>
+        </div>
+        <div class="item-value">
+          <span>Categories：</span>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+body,html,input{
+    font-family:"PingFangSC-Medium,sans-serif","Noto Sans CJK SC,sans-serif", Arial,'Microsoft YaHei'
+}
+.course_bg,body,html {
+    width:100%;
+    height:100%
+}
+*{
+    margin:0;
+    padding:0;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -webkit-appearance:none;
+    outline:0;
+    word-break:break-all;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box
+}
+h1,h2,h3,h4,h5,h6{font-weight:400}
+img{border:0}
+body{background:#ff5858}
+li,ol,ul{
+    list-style:none
+}
+body,html {
+    font-size:100px;
+    background-color:#f8f8f8
+}input{
+     -webkit-user-select:initial;
+     border:none
+ }
+i{
+    font-style:normal;
+    display:inline-block
+}
+.flex-box,.flex-vam{
+    display:-webkit-flex
+}
+a{
+    text-decoration:none
+}
+
+.flex-box{
+    display:box;
+    display:-moz-box
+}
+.flex-unit{
+    -webkit-box-flex:1;
+    -moz-box-flex:1;
+    -ms-flex:1;
+    flex:1
+}
+.flex-vam{
+    -webkit-box-pack:center;
+    -webkit-box-orient:horizontal;
+    -webkit-flex-flow:row nowrap;
+    flex-flow:row nowrap;
+    -webkit-align-items:center;
+    align-items:center
+}
+.course_bg{
+    position:relative;
+    background:url(../images/bg.jpg) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+.course-banner{
+    height:4.96rem;
+    padding-top:.5rem;
+    text-align:center;
+    position:relative
+}
+.course-icon{
+    display:inline-block;
+    position:absolute;
+    z-index:0;
+    top:1.2rem;
+    width:3.71rem;
+    height:3.78rem;
+    background:url(../images/bg-icon.png) no-repeat;
+    background-size:contain;
+    -webkit-animation:loader-rotate 8s linear infinite;
+    -moz-animation:loader-rotate 8s linear infinite;
+    animation:loader-rotate 8s linear infinite
+}
+.course-icon-bg{
+    display:inline-block;
+    position:relative;
+    z-index:10;
+    width:3.71rem;
+    height:4.46rem;
+    background:url(../images/icon.png) no-repeat;
+    background-size:contain
+}
+.course-check,.course-checked{
+    display:inline-block;
+    width:.44rem;height:.42rem
+}
+.course-check{
+    background:url(../images/check.png) no-repeat;
+    background-size:contain
+}
+.course-checked{
+    background:url(../images/checked.png) no-repeat;
+    background-size:contain}
+.course-text{
+    font-size:.3rem;
+    color:#460a03;
+    line-height:.36rem;
+    padding-top:1.65rem
+}
+.course-text p:first-child{
+    margin-bottom:.2rem
+}
+.course-text-big{
+    font-size:1.2rem;
+    color:#f8763a;
+    line-height:1.2rem
+}
+.course-content{
+    margin:.7rem 0;
+    padding:0 .2rem 0 .48rem
+}
+.course-content-text{
+    margin:0 0 .6rem;
+    font-size:.4rem;
+    color:#fff4e2;
+    line-height:.48rem
+}.course-list{
+     margin-right:.28rem;
+     border-top:1px solid #fb896a
+ }
+.course-list li{
+    font-size:.34rem;
+    color:#ffd386;
+    line-height:.48rem;
+    padding:.2rem 0;
+    border-bottom:1px solid #fb896a
+}
+.course-footer{
+    text-align:center;
+    margin:0 .48rem
+}
+.course-footer p{
+    font-size:.32rem;
+    color:#fffb86;
+    margin-top:.4rem}
+.course-btn{
+    display:inline-block;
+    width:100%;
+    border-radius:.8rem;
+    background:#fff;
+    font-size:.42rem;
+    color:#666;
+    text-align:center;
+    line-height:1.1rem
+}
+@keyframes loader-rotate{0%{transform:rotate(0)}50%{transform:rotate(-180deg)}100%{transform:rotate(-360deg)}}
+@-webkit-keyframes loader-rotate{0%{transform:rotate(0)}50%{transform:rotate(-180deg)}100%{transform:rotate(-360deg)}}
